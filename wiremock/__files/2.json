@@ -1,0 +1,153 @@
+{
+    "status": "ONBOARDED",
+    "meta": {
+      "source": {
+        "id": "2"
+      },
+      "sessionId": "string"
+    },
+    "details": {
+      "dateOfBirth": {
+        "value": "string",
+        "accuracy": "string"
+      },
+      "salary": {
+        "amount": 0,
+        "updatedOn": "string"
+      },
+      "mainConcern": "RETIRE_EARLY",
+      "territory": "UK"
+    },
+    "assets": {
+      "pensions": {
+        "definedContribution": {
+          "summary": {
+            "amount": 0,
+            "updatedOn": "string",
+            "approximateCount": "ONE",
+            "contributions": {
+              "amount": 0,
+              "updatedOn": "string",
+              "direction": "DEPOSIT",
+              "frequency": "MONTHLY"
+            }
+          }
+        },
+        "definedBenefit": {
+          "summary": {
+            "amount": 0,
+            "updatedOn": "string",
+            "direction": "DEPOSIT",
+            "frequency": "MONTHLY",
+            "startsOn": "string",
+            "endsOn": "string"
+          }
+        },
+        "statePension": {
+          "summary": {
+            "amount": 0,
+            "updatedOn": "string",
+            "direction": "DEPOSIT",
+            "frequency": "MONTHLY",
+            "startsOn": "string",
+            "endsOn": "string"
+          }
+        }
+      },
+      "investments": {
+        "summary": {
+          "amount": 0,
+          "updatedOn": "string"
+        }
+      },
+      "savings": {
+        "summary": {
+          "amount": 0,
+          "updatedOn": "string"
+        }
+      },
+      "property": {
+        "summary": {
+          "amount": 0,
+          "status": "HAS_OWNED_PROPERTY",
+          "updatedOn": "string"
+        },
+        "ownership": {
+          "status": "NOT_APPLICABLE"
+        },
+        "rental": {
+          "status": "RENTING_IN_RETIREMENT"
+        }
+      },
+      "incomes": [
+        {
+          "amount": 0,
+          "updatedOn": "string",
+          "direction": "WITHDRAWAL",
+          "frequency": "YEARLY",
+          "startsOn": "string",
+          "endsOn": "string",
+          "tax": "GROSS",
+          "type": "RENTAL_INCOME",
+          "reason": "string"
+        }
+      ]
+    },
+    "wants": {
+      "purchases": [
+        {
+          "amount": 0,
+          "updatedOn": "string",
+          "direction": "WITHDRAWAL",
+          "tax": "NET",
+          "transactedOn": "string",
+          "reason": "string",
+          "type": "purchase"
+        }
+      ],
+      "retireOn": "string",
+      "reduceHours": "YES",
+      "retirementAgeMethod": "STATE_PENSION",
+      "activities": [
+        "FAMILY"
+      ]
+    },
+    "needs": {
+      "income": {
+        "type": "SALARY_REPLACEMENT",
+        "summary": {
+          "amount": 0,
+          "updatedOn": "string",
+          "direction": "WITHDRAWAL",
+          "frequency": "YEARLY",
+          "tax": "GROSS"
+        },
+        "salaryReplacement": {
+          "amount": 0,
+          "updatedOn": "string",
+          "direction": "WITHDRAWAL",
+          "frequency": "YEARLY",
+          "tax": "GROSS",
+          "ratio": 0
+        },
+        "spending": "null"
+      },
+      "emergencyFund": {
+        "amount": 0,
+        "updatedOn": "string",
+        "direction": "WITHDRAWAL",
+        "tax": "NET",
+        "transactedOn": "string"
+      }
+    },
+    "referral": {
+      "tenant": "string",
+      "userId": "string",
+      "isReferred": true,
+      "referredOn": "string"
+    },
+    "userStatus": {
+      "type": "AUTHENTICATED"
+    },
+    "id": "string"
+  }
