@@ -1,0 +1,16 @@
+{
+  "name": "retirement-planner-mocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:wiremock": "docker build -t wiremock-mocks ./wiremock && docker run -d -p 8080:8080 wiremock-mocks",
+    "test": "karate-mock-serv ./test/features/retirement-planner.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@karatelabs/karate": "^0.2.2",
+    "wiremock-standalone": "^3.0.0"
+  }
+}

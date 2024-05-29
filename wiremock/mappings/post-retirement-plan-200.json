@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/graphql",
+      "bodyPatterns": [
+        {
+          "contains": "query { retirementPlan(id: \"valid_id\")"
+        }
+      ]
+    },
+    "response": {
+      "status": 200,
+      "body": "{\"data\": {\"retirementPlan\": {\"id\": \"valid_id\", \"name\": \"John Doe\", \"age\": 65, \"retirementAge\": 67, \"savings\": 500000}}}",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+  

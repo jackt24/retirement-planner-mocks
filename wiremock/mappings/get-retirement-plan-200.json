@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "GET",
+      "urlPath": "/retirement-plan",
+      "queryParameters": {
+        "id": {
+          "equalTo": "valid_id"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "body": "{\"id\": \"valid_id\", \"name\": \"John Doe\", \"age\": 65, \"retirementAge\": 67, \"savings\": 500000}",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+  
