@@ -1,2 +1,4 @@
-# retirement-planner-mocks
-Practice exercise for WealthWizards APIs
+# Wealth Wizards API Mocks
+
+Mocks for Wealth Wizards Retirement planner API
+
