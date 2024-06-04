@@ -8,3 +8,7 @@ Mocks for Wealth Wizards Retirement planner API
    git clone https://github.com/jackt24/retirement-planner-mocks
    cd wiremock
    docker-compose up
+
+[UI Tests](https://github.com/jackt24/wealth-wizards-ui-tests)
+[API Tests](https://github.com/jackt24/wealth-wizards-api-test)
+[WireMock/Docker](https://github.com/jackt24/retirement-planner-mocks)
